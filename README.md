@@ -1,3 +1,3 @@
 # Useful-Notes
 
-A few extra functions or tips I found helpful 
+A few extra algorithmic functions/tips/strategies I found helpful 
