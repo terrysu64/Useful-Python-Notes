@@ -186,3 +186,29 @@ print(output)
 
 output = list(map(lambda x,y: x + y, [1,2,3,4],[2,3,4,5]))
 print(output, '\n')
+
+#The Try Except structure:
+
+#The "try" block lets you test a block of code for errors before excuting it.
+#The "except" block lets you handle the error.
+#The "finally" block lets you execute code, regardless of the result of the try- and except blocks.
+
+#You can define as many exception blocks as you want,
+#e.g. if you want to execute a special block of code for a special kind of error:
+
+#The "finally" block, if specified, will be executed regardless if the try block raises an error or not.
+
+#Examples:
+try:
+  print(var)
+except NameError:
+  print("Variable x is not defined")
+except:
+  print("Something else went wrong")
+
+try:
+  print(var)
+except:
+  print("Something went wrong")
+finally:
+  print("The 'try except' is finished", '\n')
