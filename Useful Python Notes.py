@@ -212,3 +212,50 @@ except:
   print("Something went wrong")
 finally:
   print("The 'try except' is finished", '\n')
+
+
+
+
+
+#Concept: variable "deep copy" vs "shallow copy"
+
+#Shallow Copy	
+#stores the references of objects to the original memory address.   	
+#reflects changes made to the new/copied object in the original object.
+#stores the copy of the original object and points the references to the objects.	
+#Shallow copy is faster.
+
+#Ex: copying an instance in a class or a nested array in a matrix (default)
+
+#Deep Copy
+#stores copies of the object’s value.
+#doesn’t reflect changes made to the new/copied object in the original object.
+#stores the copy of the original object and recursively copies the objects as well.
+#Deep copy is comparatively slower.
+
+#Ex: a function passing a variable or copying a simple variable x = 3 (default)
+
+# implementation of the Deep
+from copy import copy, deepcopy
+ 
+# Class of Car
+class Car:
+  def __init__(self, name, colors):
+     
+     self.name = name
+     self.colors = colors
+     
+honda = Car("Honda", ["Red", "Blue"])
+ 
+# Deepcopy of Honda
+deepcopy_honda = deepcopy(honda)
+deepcopy_honda.colors.append("Green")
+print(deepcopy_honda.colors, \
+      honda.colors)
+ 
+# Shallow Copy of Honda
+copy_honda = copy(honda)
+ 
+copy_honda.colors.append("Green")
+print(copy_honda.colors, \
+      honda.colors, '\n')
