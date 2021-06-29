@@ -1,3 +1,3 @@
 # Useful-Notes
 
-A few extra algorithmS/object methods/functions/tips/strategies I found helpful 
+A few extra algorithms, built-in object methods, functions, tips, and strategies that I found helpful 
