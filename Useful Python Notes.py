@@ -1,4 +1,4 @@
-#Author: Terry Su hi
+#Author: Terry Su 
 #Purpose: some useful notes and tips
 
 #THE ALL() & ANY() FUNCTION
