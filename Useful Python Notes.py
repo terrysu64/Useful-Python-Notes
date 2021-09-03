@@ -274,3 +274,8 @@ print(copy_honda.colors, \
 
 #Ex:
 s = {1,2,3,4}
+
+
+
+
+#Bitwise Operations: https://wiki.python.org/moin/BitwiseOperators
