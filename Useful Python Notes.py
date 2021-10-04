@@ -252,6 +252,16 @@ deepcopy_honda = deepcopy(honda)
 deepcopy_honda.colors.append("Green")
 print(deepcopy_honda.colors, \
       honda.colors)
+
+# Break/Continue Keyword
+condition = True
+numbers = [1,2,3,4]
+for a in numbers:
+    if condition:
+        break # Stops looping the code
+    else:
+        continue # Continue looping
+
  
 # Shallow Copy of Honda
 copy_honda = copy(honda)
