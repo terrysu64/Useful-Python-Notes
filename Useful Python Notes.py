@@ -275,7 +275,11 @@ print(copy_honda.colors, \
 #Ex:
 s = {1,2,3,4}
 
-
+#Data structure: lists
+#Lists are used to store multiple items in a single variable.
+#However, unlike sets, they are ordered and CAN contain duplicate entries.
+#Unique to Python: they can continue variables of different types. (GL doing this in any other language XD)
+a = [1,2,3,4]
 
 
 #Bitwise Operations: https://wiki.python.org/moin/BitwiseOperators
