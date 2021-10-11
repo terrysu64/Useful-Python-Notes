@@ -252,16 +252,6 @@ deepcopy_honda = deepcopy(honda)
 deepcopy_honda.colors.append("Green")
 print(deepcopy_honda.colors, \
       honda.colors)
-
-# Break/Continue Keyword
-condition = True
-numbers = [1,2,3,4]
-for a in numbers:
-    if condition:
-        break # Stops looping the code
-    else:
-        continue # Continue looping
-
  
 # Shallow Copy of Honda
 copy_honda = copy(honda)
@@ -273,14 +263,7 @@ print(copy_honda.colors, \
 
 
 
+#@cache
+#@cache is a higher order function that can be used on top of any written function to cache returned values by parameter 
+#great for memoization dp
 
-#Data structure: sets
-
-#Sets are used to store multiple items in a single variable. (mostly used for fast lookup)
-#Set is one of 4 built-in data types in Python used to store collections of data and similar to values in a hash table
-#A set is a collection which is both UNORDERED and UNINDEXED.
-#A set CANNOT contain DUPLICATES either
-#Sets are written with curly brackets.
-
-#Ex:
-s = {1,2,3,4}
