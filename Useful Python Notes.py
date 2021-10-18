@@ -267,3 +267,11 @@ print(copy_honda.colors, \
 #@cache is a higher order function that can be used in LeetCode on top of any written function to cache returned values by parameter 
 #great for memoization dp
 
+
+
+
+#defaultdict from collections module (a dictionary that runs a function on a keyError)
+#ex:
+
+from collections import defaultdict
+x = defaultdict(int)
