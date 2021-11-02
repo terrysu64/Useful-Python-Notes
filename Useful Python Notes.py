@@ -263,9 +263,11 @@ print(copy_honda.colors, \
 
 
 
-#@cache
-#@cache is a higher order function that can be used in LeetCode on top of any written function to cache returned values by parameter 
+#@cached
+from cachetools import cached
+#@cached is a higher order function that can be used in LeetCode on top of any written function to cache returned values by parameter 
 #great for memoization dp
+#@cached(cache={}, key=lambda arg1,arg2...: hashkey(...))
 
 
 
@@ -275,3 +277,9 @@ print(copy_honda.colors, \
 
 from collections import defaultdict
 x = defaultdict(int)
+
+
+
+
+
+#arr[~i] == arr[len(arr)-1-i]
