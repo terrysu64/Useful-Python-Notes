@@ -288,3 +288,8 @@ x = defaultdict(int)
 
 
 #n&-n = n & (~n + 1); this helps us find the least significant bit that is a binary '1'
+
+#for fast cp input
+#note: inputs will have two trailing ' ' that can be removed with .strip()
+from sys import stdin
+input = stdin.readline
